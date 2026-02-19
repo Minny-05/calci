@@ -1,14 +1,8 @@
-import java.util.Scanner;
-
 class Calci {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
-        int n1 = sc.nextInt();
-
-        System.out.print("Enter second number: ");
-        int n2 = sc.nextInt();
+        int n1 = Integer.parseInt(args[0]);
+        int n2 = Integer.parseInt(args[1]);
 
         int r1 = n1 + n2;
         int r2 = n1 - n2;
