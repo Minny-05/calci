@@ -3,7 +3,7 @@ agent any
 stages {
 stage('clone') {
 steps {
-git branch:'main', url: 'https://github.com/Minny-05/Jenkinsfile.git’;
+git branch:'main', url: 'https://github.com/Minny-05/calci.git’;
 }
 }
 stage('compile') {
